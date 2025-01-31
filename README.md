@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Anubhav Ray
+
+![Banner](https://www.anubhavray.me/project/home.png)
+
+This is the source code for my personal portfolio website built using Next.js.
+
+## Features
+- Showcases projects, skills, and experience
+- Built with Next.js for fast performance
+- Responsive design for all devices
+- SEO optimized
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (Latest LTS recommended)
+- [Git](https://git-scm.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Clone the Repository
+```sh
+git clone https://github.com/yourusername/your-portfolio.git
+cd your-portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies
+```sh
+yarn install  # or npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Run the Development Server
+```sh
+yarn dev  # or npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) to view the project.
 
-## Learn More
+## Build and Deploy
+To create a production build:
+```sh
+yarn build  # or npm run build
+```
+To start the production server:
+```sh
+yarn start  # or npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
+You can deploy the website on platforms like:
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## GitHub README.md
+To use this README in your GitHub repository, create a `README.md` file and paste the following content:
+```md
+# Portfolio Website
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Banner](https://www.anubhavray.me/project/home.png)
 
-## Deploy on Vercel
+This is the source code for my personal portfolio website built using Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
+- Showcases projects, skills, and experience
+- Built with Next.js for fast performance
+- Responsive design for all devices
+- SEO optimized
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (Latest LTS recommended)
+- [Git](https://git-scm.com/)
+
+### Clone the Repository
+```sh
+git clone https://github.com/yourusername/your-portfolio.git
+cd your-portfolio
+```
+
+### Install Dependencies
+```sh
+yarn install  # or npm install
+```
+
+### Run the Development Server
+```sh
+yarn dev  # or npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the project.
+
+## Build and Deploy
+To create a production build:
+```sh
+yarn build  # or npm run build
+```
+To start the production server:
+```sh
+yarn start  # or npm start
+```
+
+## Deployment
+You can deploy the website on platforms like:
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+
+## License
+This project is licensed under the MIT License.
+
