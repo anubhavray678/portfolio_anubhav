@@ -18,10 +18,19 @@ import x from "../../public/x.png";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [scrollUp, setScrollUp] = useState(false);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 0);
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      setIsScrolled(currentScrollY > 0);
+      setScrollUp(currentScrollY < lastScrollY);
+      lastScrollY = currentScrollY;
+    };
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -29,7 +38,9 @@ export default function Header() {
   return (
     <Navbar
       fullWidth
-      className={`fixed top-0 z-50 px-4 py-2 transition-all bg-blue-50 shadow-none`}
+      className={`fixed top-0 z-50 px-4 py-2 transition-all shadow-none ${
+        isScrolled && scrollUp ? " bg-transparent" : "bg-blue-50"
+      }`}
     >
       <div className="flex items-center justify-between p-3">
         <div className="hidden sm:flex gap-4">
