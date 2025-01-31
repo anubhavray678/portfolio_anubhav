@@ -162,4 +162,16 @@ export const projects = [
     github: "https://github.com/anubhavray678/human-pose-detection",
     webapp: "",
   },
+  {
+    id: 5,
+    title: "Portfolio Website",
+    date: "Ongoing",
+    description:
+      "Designed and developed a personal portfolio showcasing projects, experience, and blogs, built using Next.js and Tailwind CSS for a seamless user experience.",
+    image: "/project/home.png",
+    tags: ["Next.js", "Tailwind CSS", "Vercel"],
+    category: "web app",
+    github: "https://github.com/anubhavray678/portfolio_anubhav",
+    webapp: "https://anubhavray.me",
+  },
 ];
