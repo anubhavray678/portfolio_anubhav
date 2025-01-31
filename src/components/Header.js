@@ -33,7 +33,9 @@ export default function Header() {
     <Navbar
       fullWidth
       className={`fixed top-0 z-50 px-4 py-2 transition-all shadow-none ${
-        isScrolled ? "bg-blue-50" : "bg-transparent"
+        isScrolled
+          ? "bg-gradient-to-b from-blue-50 to-red-100"
+          : "bg-transparent"
       }`}
     >
       <div className="flex items-center justify-between p-3">
