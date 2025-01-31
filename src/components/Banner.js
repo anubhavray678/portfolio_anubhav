@@ -9,7 +9,7 @@ function Banner() {
     <section className="flex flex-col sm:flex-row items-center justify-center text-center sm:text-left gap-6 sm:gap-24 w-full h-screen px-6">
       <div className="flex justify-center sm:justify-end">
         <Image
-          className="h-48 w-48 sm:h-96 sm:w-96 rounded-full border-white border-[8px]"
+          className="h-48 w-48 sm:h-96 sm:w-96 rounded-full border-white border-[10px]"
           src={HomeImg}
           alt="Anubhav Ray, Software Development Engineer"
           priority // This improves the performance by loading the image early
