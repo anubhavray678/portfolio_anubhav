@@ -28,7 +28,6 @@ function Service() {
   return (
     <div>
       <div className="text-center">
-        <h2 className=" font-bold text-4xl pt-10">Skills </h2>
         <p className="font-semibold text-gray-600 text-2xl">
           You Dont Hire For Skills, You Hire For Attitude. You Can Always Teach
           Skills.
