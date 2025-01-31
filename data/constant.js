@@ -79,7 +79,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://w7.pngwing.com/pngs/155/858/png-transparent-git-icon-hd-logo-thumbnail.png",
+          "https://portswigger.net/cms/images/b5/b9/27b1-article-230120-git-main_copy.jpg",
       },
       {
         name: "Postman",

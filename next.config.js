@@ -12,6 +12,7 @@ const nextConfig = {
       "chris-ayers.com",
       "www.devopsschool.com",
       "educationecosystem.com",
+      "portswigger.net",
     ],
   },
 };
