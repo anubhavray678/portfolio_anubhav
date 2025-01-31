@@ -7,6 +7,58 @@ import Link from "next/link";
 function Banner() {
   return (
     <section className="flex flex-col sm:flex-row items-center justify-center text-center sm:text-left gap-6 sm:gap-24 w-full h-screen px-6">
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <div className="star-animation"></div>
+      </div>
+
+      <style jsx>{`
+        /* Keyframes for gradient animation */
+        @keyframes gradientAnimation {
+          0% {
+            background-position: 0% 50%;
+          }
+          100% {
+            background-position: 100% 50%;
+          }
+        }
+
+        /* Gradient animation for heading */
+        .animate-gradient {
+          background-size: 200% 200%;
+          animation: gradientAnimation 4s ease-in-out infinite;
+        }
+
+        /* Star animation keyframes */
+        @keyframes starTwinkle {
+          0%,
+          100% {
+            opacity: 0.8;
+            transform: scale(1);
+          }
+          50% {
+            opacity: 1;
+            transform: scale(1.2);
+          }
+        }
+
+        /* Star animation container styling */
+        .star-animation {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: radial-gradient(
+              circle at 50% 50%,
+              red 1px,
+              transparent 1px
+            ),
+            radial-gradient(circle at 10% 20%, indigo 2px, transparent 2px),
+            radial-gradient(circle at 80% 30%, yellow 1.5px, transparent 1.5px),
+            radial-gradient(circle at 20% 80%, green 2px, transparent 2px),
+            radial-gradient(circle at 90% 70%, orange 1px, transparent 1px);
+          background-size: 100px 100px;
+          animation: starTwinkle 5s infinite alternate ease-in-out;
+        }
+      `}</style>
       <div className="flex justify-center sm:justify-end">
         <Image
           className="h-48 w-48 sm:h-96 sm:w-96 rounded-full border-white border-[8px]"
