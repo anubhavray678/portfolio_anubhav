@@ -66,7 +66,7 @@ const Projects = () => {
             <img
               src={openModal.project.image}
               alt={openModal.project.title}
-              className="w-full h-44 object-cover rounded-lg shadow-md mt-4"
+              className="w-full h-44 object-fill rounded-lg shadow-md mt-4"
             />
             <p className="mt-2">{openModal.project.description}</p>
             <div className="mt-4 flex gap-4">
