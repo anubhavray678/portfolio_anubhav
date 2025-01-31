@@ -123,7 +123,7 @@ export const projects = [
     image: "/project/1.png",
     tags: ["Flask", "Fuzzy Logic", "Pandas", "Numpy", "Python"],
     category: "machine learning",
-    github: "https://github.com/anubhavray678/Ayurveda",
+    github: "https://github.com/anubhavray678/Aushadhi_recomendation",
     webapp: "",
   },
   {
